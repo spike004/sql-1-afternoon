@@ -1,0 +1,45 @@
+/* CREATE TABLE person (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name varchar(55),
+    age varchar(55),
+   height varchar(55),
+  favcolor varchar(55)
+); */
+
+--INSERT INTO person (name,age,height,favcolor)
+--VALUES ('bob',30,6,'green'),('teisha',28,5,'blue'),('charlee',2,3,'purple'),('nan',60,5,'orange'),('baby',1,1,'tba');
+--select * from person order by height desc;
+--select * from person order by height asc;
+--select * from person order by age desc
+--select * from person where age>20
+--select * from person where age=20
+--select * from person where age<20 or age>30;
+--select * from person where not age=27;
+--select * from person where not favcolor='red';
+--select * from person where not favcolor='red' and not favcolor='blue';
+--select * from person where favcolor='orange' or favcolor='green';
+--select * from person where favcolor in('orange','green','blue');
+--select * from person where favcolor in('yellow','purple');
+
+/* insert into artist (name)
+values('joe'),('john'),('rhys') */
+
+--select * from artist order by name desc limit 10;
+--select * from artist order by name limit 5;
+--select * from artist where name like 'black%'
+--select * from artist where name like '%black%'
+--select firstname,lastname from employee where city='Calgary';
+--select firstname,lastname,birthdate from employee order by birthdate desc limit 1;
+--select firstname,lastname,birthdate from employee order by birthdate asc limit 1;
+--select * from employee where reportsto=2;
+--select count(*) from employee where city='Lethbridge'
+
+
+--select count(*) from invoice where billingcountry='USA';
+--select * from invoice order by total desc limit 1;
+--select * from invoice order by total asc limit 1;
+--select * from invoice where total>5;
+--select count(*) from invoice where total<5;
+--select count(*) from invoice where billingstate in('CA','TX','AZ');
+--select avg(total) from invoice;
+--select sum(total) from invoice;
